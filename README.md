@@ -1,4 +1,4 @@
-# node-red-contrib-ros
+# node-red-contrib-ros-wnm
 Node-RED nodes for connecting to ROS bridge and subscribe/publish to ROS topics.
 
 These nodes uses roslibjs, the standard ROS Javascrip library. https://github.com/RobotWebTools/roslibjs
