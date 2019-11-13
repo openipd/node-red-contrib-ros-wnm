@@ -22,7 +22,8 @@ module.exports = function(RED) {
       //var pubslishMsg = new ROSLIB.Message({data: msg.payload});
       topic.publish({data: msg.payload});
       //var pubslishMsg = new ROSLIB.Message(msg.payload);
-      //topic.publish(pubslishMsg);    });
+      //topic.publish(pubslishMsg);
+    });
 
     node.server.on('ros connected', () => {
       node.status({fill:"green",shape:"dot",text:"connected"});
